@@ -1,0 +1,30 @@
+As a user, I want to...
+
+= Read a cell so that I know details about its content.
+= Read a row of data so that I know details about its content.
+= Read a column of data so that I know details about its content.
+= Read a range of data so that I know details about its shape and itscontent.
+
+
+= Get a summary of tables that exists in the dataset, so that I can make a 
+  perception about dataset, and its content.
+  on it.
+= Get a summary of a specific table in the dataset, so that I can make a perception
+  about it and its content.
+
+= Specify / select a cell, so that I can make changes from / to them.
+= Specify / select a column, so that I can make changes from / to them.
+= Specify / select a row, so that I can make changes from / to them.
+= Specify / select a range of data, so that I can make changes from / to them.
+= Specify / select a specific table that exists in the dataset so that I can make actions
+= Specify the type of details/information I want to know about the data I'm reading, 
+  so that I get only the information I wanted.
+
+= Make a general condition depending on th chosen, so that the application can take action depending on it.
+= Include more than one condition to my general condition using AND, OR, and, or.
+
+= Write data on the chosen range of the table.
+= Copy data from a chosen range to another chosen range.
+= Cut data from a chosen range to another chosen range.
+
+
