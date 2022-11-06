@@ -24,7 +24,7 @@ From our observation, and further look and research, we came up with the followi
 
 ***“It is hard, challenging and time-consuming for non-experts and new spreadsheets users to perform average complexity data operations whether absolutely or in an acceptable time and quality”***
 
-### Please refer to the research document/paper from [HERE](https://docs.google.com/document/d/1lCygne2TUmsM03kNKZFZKGNhuR72Lf_GuhAtuDtNWPk/edit)
+### Please refer to the research document/paper from [HERE](https://docs.google.com/document/d/1lCygne2TUmsM03kNKZFZKGNhuR72Lf_GuhAtuDtNWPk/edit) for more details.
 *******************
 
 ## Project structure
@@ -46,6 +46,7 @@ From our observation, and further look and research, we came up with the followi
 
 ![Image](Python_Codes/Pictures/Class_UML.png)
 
+### Please refer to the document [HERE](https://docs.google.com/document/d/1lCygne2TUmsM03kNKZFZKGNhuR72Lf_GuhAtuDtNWPk/edit) for more details about the design approach
 
 ## Author
 ****************
