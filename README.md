@@ -44,7 +44,7 @@ From our observation, and further look and research, we came up with the followi
 ## OOP Structure
 ****************
 
-![Image](Pictures/Class_UML.png)
+![Image](Graphics_and_ilustrations\Classes_UML_Diagrams\Class_UML.png)
 
 
 ## Author
