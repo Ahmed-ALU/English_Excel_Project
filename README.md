@@ -44,7 +44,7 @@ From our observation, and further look and research, we came up with the followi
 ## OOP Structure
 ****************
 
-![Image]("Pictures/Class_UML.png")
+![Image](Pictures/Class_UML.png)
 
 
 ## Author
