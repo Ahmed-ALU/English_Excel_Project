@@ -1,20 +1,13 @@
-import re
+import pymysql
 
-regex = '^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$'
-
-
-def check(email):
-    print(type(re.match(regex, email)))
-    print(re.match(regex, email))
-
-check("ahmed@hh.com")
-#
-# if __name__ == '__main__':
-#     email = "rohit.gupta@mcnsolutions.net"
-#     check(email)
-#
-#     email = "praveen@c-sharpcorner.com"
-#     check(email)
-#
-#     email = "inform2atul@gmail.com"
-#     check(email)
+connection = pymysql.connect(host="localhost", port=3306, user="root", database='english_excel')
+print(connection)
+cursor = connection.cursor()
+res = cursor.execute("SELECT email FROM users WHERE email = 'admin@admin.co';")
+print(type(res))
+# print(cursor.execute('SELECT * FROM db;'))
+# print(cursor.fetchall())
+# some other statements  with the help of cursor
+# cursor.execute(f"INSERT INTO users VALUES (0, 'admin3', 'admin3', 'admin@admin.com', 'adminadmin_123');")
+# connection.commit()
+# connection.close()
