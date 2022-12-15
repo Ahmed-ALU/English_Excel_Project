@@ -225,17 +225,18 @@ class Compiler:
         # Initiating relationships (aggregation)
         self.obj_translator = translator
 
-    @property
-    def compiledSentence(self, sentence=list) -> 0:
-        self.compiledSentence = sentence
-        return 0
+    # @property
+    # def compiledSentence(self, sentence=list) -> 0:
+    #     self.compiledSentence = sentence
+    #     return 0
+    #
+    # @compiledSentence.setter
+    # def compiledSentence(self) -> list:
+    #     return self.compiledSentence
 
-    @compiledSentence.setter
-    def compiledSentence(self) -> list:
-        return self.compiledSentence
-
+    # def compile(self):
+    #     if "CHOOSE" in
 
 if __name__ == "__main__":
-    inst = Translator()
-    a = inst.translate("CLONE cell(A02) into cell(A01)")
-    print(a, inst.finalSentence, inst.makeSense)
+    translator_obj = Translator()
+    compiler_obj = Compiler(translator_obj)
