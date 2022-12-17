@@ -181,29 +181,5 @@ def new_file_helper(self_obj, file_obj):
     file_obj.new_file = True
     return True
 
-def implement(self_obj, file_obj):
-    if "CHOOSE" in self_obj.sentence_entry.get():
-        self_obj.sentence_entry.delete(0, END)
-        self_obj.status_message.configure(text=file_obj.ws['B5'].value)
-        self_obj.sentence_entry.delete(0, END)
-    elif "COPY" in self_obj.sentence_entry.get():
-        self_obj.sentence_entry.delete(0, END)
-        file_obj.ws['A2'].value = "Hello"
-        self_obj.status_message.configure(text=file_obj.ws['A2'].value)
-        self_obj.sentence_entry.delete(0, END)
-    elif "CUT" in self_obj.sentence_entry.get():
-        self_obj.sentence_entry.delete(0, END)
-        file_obj.ws['A3'].value = "Hello"
-        file_obj.ws['A2'].value = "n/a"
-        self_obj.status_message.configure(text=file_obj.ws['A2'].value)
-        self_obj.sentence_entry.delete(0, END)
-    elif "WRITE" in self_obj.sentence_entry.get():
-        self_obj.sentence_entry.delete(0, END)
-        file_obj.ws['D2'].value = "Written"
-        self_obj.status_message.configure(text=file_obj.ws['D2'].value)
-        self_obj.sentence_entry.delete(0, END)
-    self_obj.update_data()
-
-
 def test(wid):
     wid.insert(0, "Hello")
